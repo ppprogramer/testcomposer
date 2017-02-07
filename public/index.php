@@ -1,15 +1,9 @@
 <?php
-use Illuminate\Database\Capsule\Manager as Capsule;
 
-// Autoload 自动载入
-require '../vendor/autoload.php';
+define('BASE_ROOT_PATH', __DIR__);
 
-//Eloquent
-$capsule = new Capsule;
-
-$capsule->addConnection(require '../config/database.php');
-
-$capsule->bootEloquent();
+// 启动器
+require __DIR__ . '/../bootstrap/app.php';
 
 // 路由配置
 require '../config/routes.php';

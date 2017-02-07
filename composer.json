@@ -1,12 +1,20 @@
 {
   "require": {
     "codingbean/macaw": "dev-master",
-    "illuminate/database": "*"
+    "illuminate/database": "*",
+    "filp/whoops": "*"
   },
   "autoload": {
     "classmap": [
       "app/controllers",
-      "app/models"
+      "app/models",
+      "services"
     ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
   }
 }

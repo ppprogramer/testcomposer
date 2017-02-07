@@ -13,6 +13,10 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Whoops\\' => 7,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -36,6 +40,10 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
     );
 
     public static $prefixDirsPsr4 = array (
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -84,6 +92,7 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'App\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
         'App\\Models\\Article' => __DIR__ . '/../..' . '/app/models/Article.php',
+        'Services\\View' => __DIR__ . '/../..' . '/services/View.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
