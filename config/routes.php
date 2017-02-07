@@ -10,6 +10,6 @@ Macaw::get('fuck', function () {
     echo "成功！";
 });
 
-Macaw::get('/home', 'HomeController@index');
+Macaw::get('/home', 'App\Controllers\HomeController@index');
 
 Macaw::dispatch();

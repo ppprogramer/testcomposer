@@ -16,8 +16,13 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
     public static $prefixDirsPsr4 = array (
         'NoahBuscher\\Macaw\\' => 
         array (
-            0 => __DIR__ . '/..' . '/noahbuscher/macaw',
+            0 => __DIR__ . '/..' . '/codingbean/macaw',
         ),
+    );
+
+    public static $classMap = array (
+        'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
+        'App\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -25,6 +30,7 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit8c4dc36ab700cda110070af49fae6d17::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit8c4dc36ab700cda110070af49fae6d17::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit8c4dc36ab700cda110070af49fae6d17::$classMap;
 
         }, null, ClassLoader::class);
     }

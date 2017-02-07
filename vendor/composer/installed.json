@@ -1,6 +1,6 @@
 [
     {
-        "name": "noahbuscher/macaw",
+        "name": "codingbean/macaw",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
@@ -29,6 +29,7 @@
         "license": [
             "MIT"
         ],
-        "description": "Simple PHP router class."
+        "description": "Simple PHP router class.",
+        "abandoned": "noahbuscher/macaw"
     }
 ]
