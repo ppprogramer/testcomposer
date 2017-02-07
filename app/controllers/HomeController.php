@@ -9,7 +9,7 @@ class HomeController extends BaseController
 
     public function index()
     {
-        $article = Article::first();
+        $article = Article::findOrFail(1);
         require dirname(__FILE__) . '/../../resource/views/index.php';
     }
 }
