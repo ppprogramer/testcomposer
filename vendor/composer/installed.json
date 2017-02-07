@@ -1,38 +1,5 @@
 [
     {
-        "name": "codingbean/macaw",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/noahbuscher/Macaw.git",
-            "reference": "a4d5e3e1871143416f95d7ced189545fb5147148"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/noahbuscher/Macaw/zipball/a4d5e3e1871143416f95d7ced189545fb5147148",
-            "reference": "a4d5e3e1871143416f95d7ced189545fb5147148",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "time": "2016-10-13 22:34:57",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "NoahBuscher\\Macaw\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "Simple PHP router class.",
-        "abandoned": "noahbuscher/macaw"
-    },
-    {
         "name": "symfony/polyfill-mbstring",
         "version": "v1.3.0",
         "version_normalized": "1.3.0.0",
@@ -732,5 +699,38 @@
         ],
         "description": "Nette Mail: Sending E-mails",
         "homepage": "https://nette.org"
+    },
+    {
+        "name": "codingbean/macaw",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/noahbuscher/Macaw.git",
+            "reference": "a4d5e3e1871143416f95d7ced189545fb5147148"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/noahbuscher/Macaw/a4d5e3e1871143416f95d7ced189545fb5147148.zip",
+            "reference": "a4d5e3e1871143416f95d7ced189545fb5147148",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2016-10-13 22:34:57",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "NoahBuscher\\Macaw\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Simple PHP router class.",
+        "abandoned": "noahbuscher/macaw"
     }
 ]
