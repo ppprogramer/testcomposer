@@ -22,6 +22,10 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Translation\\' => 30,
         ),
+        'P' => 
+        array (
+            'Predis\\' => 7,
+        ),
         'N' => 
         array (
             'NoahBuscher\\Macaw\\' => 18,
@@ -51,6 +55,10 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Predis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/predis/predis/src',
         ),
         'NoahBuscher\\Macaw\\' => 
         array (
