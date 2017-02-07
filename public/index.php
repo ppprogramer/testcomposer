@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_ROOT_PATH', __DIR__);
+define('BASE_PATH', __DIR__);
 
 // 启动器
 require __DIR__ . '/../bootstrap/app.php';
