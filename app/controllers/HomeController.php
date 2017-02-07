@@ -2,11 +2,14 @@
 
 namespace App\Controllers;
 
+use App\Models\Article;
+
 class HomeController extends BaseController
 {
 
     public function index()
     {
-        echo "<h1>控制器成功！</h1>";
+        $article = Article::first();
+        require dirname(__FILE__) . '/../../resource/views/index.php';
     }
 }
