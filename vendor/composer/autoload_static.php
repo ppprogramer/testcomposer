@@ -153,6 +153,7 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
         'Nette\\Utils\\UnknownImageFileException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
         'Nette\\Utils\\Validators' => __DIR__ . '/..' . '/nette/utils/src/Utils/Validators.php',
         'Services\\Mail' => __DIR__ . '/../..' . '/services/Mail.php',
+        'Services\\Redis' => __DIR__ . '/../..' . '/services/Redis.php',
         'Services\\View' => __DIR__ . '/../..' . '/services/View.php',
     );
 
