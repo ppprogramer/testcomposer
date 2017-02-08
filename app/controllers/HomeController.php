@@ -16,7 +16,7 @@ class HomeController extends BaseController
         $this->view = View::make('index')->with('article', $article);
     }
 
-    public function sendMail()
+    public function mail()
     {
         $this->mail = Mail::to(['1026039774@qq.com'])
             ->from('18279409761@163.com')

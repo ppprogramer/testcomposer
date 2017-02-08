@@ -6,7 +6,7 @@ return [
 
     'host'      => 'localhost',
 
-    'database'  => 'ddos',
+    'database'  => 'ddos_v3',
 
     'username'  => 'root',
 

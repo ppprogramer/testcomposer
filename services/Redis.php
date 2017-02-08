@@ -15,7 +15,7 @@ class Redis
 
     public static function init()
     {
-        self::$redis = new Client(require BASE_PATH . self::CONFIG_FILE);
+        self::$redis = new Client(require BASE_PATH . '/..' . self::CONFIG_FILE);
     }
 
     public static function set($key, $value, $time = null, $unit = null)

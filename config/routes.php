@@ -15,6 +15,7 @@ Macaw::$error_callback = function() {
 };
 
 Macaw::get('/home', 'App\Controllers\HomeController@index');
-Macaw::get('/sendMail', 'App\Controllers\HomeController@sendMail');
+Macaw::get('/redis', 'App\Controllers\HomeController@redis');
+Macaw::get('/mail', 'App\Controllers\HomeController@mail');
 
 Macaw::dispatch();
