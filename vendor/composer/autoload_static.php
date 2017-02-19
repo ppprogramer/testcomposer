@@ -15,6 +15,7 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
+            'Workerman\\' => 10,
             'Whoops\\' => 7,
         ),
         'S' => 
@@ -44,6 +45,10 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
     );
 
     public static $prefixDirsPsr4 = array (
+        'Workerman\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/workerman',
+        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
@@ -153,6 +158,7 @@ class ComposerStaticInit8c4dc36ab700cda110070af49fae6d17
         'Nette\\Utils\\UnknownImageFileException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
         'Nette\\Utils\\Validators' => __DIR__ . '/..' . '/nette/utils/src/Utils/Validators.php',
         'Services\\Mail' => __DIR__ . '/../..' . '/services/Mail.php',
+        'Services\\OAuth' => __DIR__ . '/../..' . '/services/OAuth.php',
         'Services\\Redis' => __DIR__ . '/../..' . '/services/Redis.php',
         'Services\\View' => __DIR__ . '/../..' . '/services/View.php',
     );

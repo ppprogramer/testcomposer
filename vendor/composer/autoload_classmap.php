@@ -62,6 +62,7 @@ return array(
     'Nette\\Utils\\UnknownImageFileException' => $vendorDir . '/nette/utils/src/Utils/exceptions.php',
     'Nette\\Utils\\Validators' => $vendorDir . '/nette/utils/src/Utils/Validators.php',
     'Services\\Mail' => $baseDir . '/services/Mail.php',
+    'Services\\OAuth' => $baseDir . '/services/OAuth.php',
     'Services\\Redis' => $baseDir . '/services/Redis.php',
     'Services\\View' => $baseDir . '/services/View.php',
 );

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bd1975329c738154f9ed5ea5aa5e4379",
-    "content-hash": "a460bae05ef458ef4f423396ec64daf3",
+    "hash": "93b2580b946c5ec32986d7de7b4e3baa",
+    "content-hash": "467475c663f87bf3561ea936db295ca1",
     "packages": [
         {
             "name": "codingbean/macaw",
@@ -764,6 +764,52 @@
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
             "time": "2017-01-21 17:06:35"
+        },
+        {
+            "name": "workerman/workerman",
+            "version": "v3.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/Workerman.git",
+                "reference": "02e71eef4714bd251e1b456cb047d3c0d6732192"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/walkor/Workerman/02e71eef4714bd251e1b456cb047d3c0d6732192.zip",
+                "reference": "02e71eef4714bd251e1b456cb047d3c0d6732192",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "ext-event": "For better performance."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2017-02-14 12:29:56"
         }
     ],
     "packages-dev": [],

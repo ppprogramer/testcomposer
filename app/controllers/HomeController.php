@@ -3,12 +3,14 @@
 namespace App\Controllers;
 
 use Services\Mail;
+use Services\OAuth;
 use Services\Redis;
 use Services\View;
 use App\Models\Article;
 
 class HomeController extends BaseController
 {
+    public $data;
 
     public function index()
     {
@@ -26,7 +28,19 @@ class HomeController extends BaseController
 
     public function redis()
     {
-        Redis::set('key','value',5,'s');
+        Redis::set('key', 'value', 5, 's');
         echo Redis::get('key');
+    }
+
+    public function oauth()
+    {
+        $code = $_GET['code'];
+        $info = new OAuth($code, 'post');
+        var_dump($info->getInfo());
+    }
+
+    public function third()
+    {
+        $this->view = View::make('oauth');
     }
 }

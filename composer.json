@@ -4,7 +4,8 @@
     "illuminate/database": "*",
     "filp/whoops": "*",
     "nette/mail": "*",
-    "predis/predis": "*"
+    "predis/predis": "*",
+    "workerman/workerman": "^3.3"
   },
   "autoload": {
     "classmap": [

@@ -19,7 +19,9 @@ class BaseController
     {
         $view = $this->view;
         if ($view instanceof View) {
-            extract($view->data);
+            if (!empty($view->data)) {
+                extract($view->data);
+            }
             require $view->view;
         }
         $mail = $this->mail;
